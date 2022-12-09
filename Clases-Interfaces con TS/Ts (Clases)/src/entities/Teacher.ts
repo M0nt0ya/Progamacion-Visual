@@ -1,6 +1,6 @@
-import { Person } from "./person";
+import { Person } from "./Person";
 
 export interface Teacher extends Person{
     title:string;
-    matter:string;
+    area:string;
 }

@@ -11,14 +11,12 @@ function addStudent(): void {
         direction: readformHtml("direction"),
         enrollment: parseInt(readformHtml("enrollment")),
         level: (readformHtml("level")),
-
     }
     students.push(currentStudent);
     console.table(students)
 }
 
 let teachers: Teacher[] = [];
-
 function addTeacher(): void {
     let currentTeacher: Teacher = {
         fullName: readformHtml("fullName1"),
